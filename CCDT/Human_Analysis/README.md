@@ -15,7 +15,7 @@ Before running the MATLAB scripts, make sure you have:
 These steps are estimated to take approximately 10 minutes.
 1. **Clone or Download the Repository**
    ```bash
-   git clone https://github.com/mhedlund/RNET_Public/CCDT/Human_Analysis.git
+   git clone https://github.com/mhedlund17/RNET_Public_CCDT/CCDT/Human_Analysis.git
    cd Human_Analysis
    ```
    Or download the .zip file from GitHub and extract it.
@@ -101,8 +101,7 @@ The demo can be expaneded to analyze the full dataset from FigShare. After downl
 % and define output directory and file name to save features.
 
 run("CCDT_graph_features.m")
-% output: file saved with trial-by-trial graph communicability features and
-% regression for 
+% output: file saved with trial-by-trial graph communicability features 
 
 run("CCDT_power_features.m")
 % output: file saved with trial-by-trial spectral power features
